@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.fintrack.compromisso.service.PostgresEfetivacaoIT
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.800 s -- in com.fintrack.compromisso.service.PostgresEfetivacaoIT

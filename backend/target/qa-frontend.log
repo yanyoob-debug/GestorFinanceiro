@@ -1,0 +1,87 @@
+> Building...
+√ Building...
+Initial chunk files | Names                           |  Raw size
+polyfills.js        | polyfills                       |  90.20 kB | 
+styles.css          | styles                          |  76.83 kB | 
+main.js             | main                            |   4.46 kB | 
+chunk-XSWBI2S6.js   | -                               |   2.36 kB | 
+chunk-VUJOFXKG.js   | -                               | 938 bytes | 
+chunk-ZHWMJK76.js   | -                               | 591 bytes | 
+
+                    | Initial total                   | 175.38 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-KV4NVDUZ.js   | financeiro-component            |  66.22 kB | 
+chunk-PASLUUJQ.js   | relatorios-routes               |  31.77 kB | 
+chunk-N6I7G5VR.js   | dashboard-home-component        |  28.93 kB | 
+chunk-BOMKCJYH.js   | dre-routes                      |  27.38 kB | 
+chunk-SQMMCOMH.js   | movimentacoes-component         |  22.28 kB | 
+chunk-XQWEI7F2.js   | contas-financeiras-component    |  18.23 kB | 
+chunk-7WALKBXN.js   | categorias-component            |  16.69 kB | 
+chunk-IETX3ICI.js   | cadastro-component              |  10.71 kB | 
+chunk-53ZVT4PC.js   | login-component                 |  10.06 kB | 
+chunk-6MVNYU2N.js   | dashboard-placeholder-component |   9.54 kB | 
+chunk-2B6YI3N6.js   | -                               |   6.40 kB | 
+chunk-RBDMMU7O.js   | -                               |   2.81 kB | 
+chunk-WRYAF4KW.js   | -                               |   2.61 kB | 
+chunk-FLTRPRTG.js   | -                               |   1.24 kB | 
+chunk-DFUKWTEE.js   | -                               |   1.15 kB | 
+...and 3 more lazy chunks files. Use "--verbose" to show all the files.
+
+Application bundle generation complete. [3.971 seconds]
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+Re-optimizing dependencies because lockfile has changed
+  ➜  Local:   http://127.0.0.1:4202/
+  ➜  press h + enter to show help
+> Changes detected. Rebuilding...
+√ Changes detected. Rebuilding...
+Initial chunk files | Names                        | Raw size
+main.js             | main                         |  4.46 kB | 
+
+Lazy chunk files    | Names                        | Raw size
+chunk-JC2LTJVV.js   | financeiro-component         | 66.20 kB | 
+chunk-TG4ODFYF.js   | movimentacoes-component      | 22.27 kB | 
+chunk-GHYFU5DH.js   | contas-financeiras-component | 18.23 kB | 
+chunk-52IGN4KR.js   | categorias-component         | 16.69 kB | 
+
+Application bundle generation complete. [1.549 seconds]
+
+Page reload sent to client(s).
+> Changes detected. Rebuilding...
+√ Changes detected. Rebuilding...
+Initial chunk files | Names                        | Raw size
+main.js             | main                         |  4.46 kB | 
+
+Lazy chunk files    | Names                        | Raw size
+chunk-HNYF6LQ6.js   | financeiro-component         | 66.20 kB | 
+chunk-VF5KPVHC.js   | movimentacoes-component      | 22.27 kB | 
+chunk-KMB7VUXG.js   | contas-financeiras-component | 18.23 kB | 
+chunk-KGUHJTH4.js   | categorias-component         | 16.69 kB | 
+
+Application bundle generation complete. [0.760 seconds]
+
+Page reload sent to client(s).
+> Changes detected. Rebuilding...
+√ Changes detected. Rebuilding...
+Initial chunk files | Names                | Raw size
+main.js             | main                 |  4.46 kB | 
+
+Lazy chunk files    | Names                | Raw size
+chunk-U4AATEPS.js   | financeiro-component | 66.40 kB | 
+
+Application bundle generation complete. [0.789 seconds]
+
+Page reload sent to client(s).
+> Changes detected. Rebuilding...
+√ Changes detected. Rebuilding...
+Initial chunk files | Names                | Raw size
+main.js             | main                 |  4.46 kB | 
+
+Lazy chunk files    | Names                | Raw size
+chunk-YZRLL6A4.js   | financeiro-component | 66.46 kB | 
+
+Application bundle generation complete. [0.348 seconds]
+
+Page reload sent to client(s).

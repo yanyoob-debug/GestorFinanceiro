@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.fintrack.compromisso.service.EfetivacaoConcorrenteTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.622 s -- in com.fintrack.compromisso.service.EfetivacaoConcorrenteTest

@@ -1,0 +1,40 @@
+
+> fintrack-frontend@0.1.0 build
+> ng build
+
+> Building...
+√ Building...
+Initial chunk files   | Names                           |  Raw size | Estimated transfer size
+chunk-OIGTTNC2.js     | -                               | 183.61 kB |                52.99 kB
+chunk-2ONJK3SY.js     | -                               |  81.75 kB |                20.45 kB
+styles-R65JXGOQ.css   | styles                          |  71.08 kB |                 7.13 kB
+polyfills-FFHMD2TL.js | polyfills                       |  34.52 kB |                11.28 kB
+chunk-JOCNX7XN.js     | -                               |  18.95 kB |                 5.51 kB
+main-CG2G6NU5.js      | main                            |   6.57 kB |                 2.43 kB
+chunk-QK4UQCQU.js     | -                               |   1.39 kB |               550 bytes
+chunk-A252KAHY.js     | -                               | 290 bytes |               290 bytes
+
+                      | Initial total                   | 398.17 kB |               100.62 kB
+
+Lazy chunk files      | Names                           |  Raw size | Estimated transfer size
+chunk-3URP57D7.js     | relatorios-routes               | 244.29 kB |                71.83 kB
+chunk-PJKRTCZX.js     | -                               | 106.75 kB |                17.65 kB
+chunk-POTGXM6G.js     | -                               |  98.42 kB |                21.58 kB
+chunk-7R7KDK7E.js     | financeiro-component            |  73.78 kB |                16.63 kB
+chunk-P4BPGINO.js     | browser                         |  63.60 kB |                16.86 kB
+chunk-W26KK5RT.js     | -                               |  61.63 kB |                10.76 kB
+chunk-QB4WN5RW.js     | -                               |  42.97 kB |                 8.75 kB
+chunk-6FDM4JGH.js     | -                               |  38.75 kB |                 8.00 kB
+chunk-IXS3JVKN.js     | dashboard-placeholder-component |  31.09 kB |                 6.25 kB
+chunk-WEB7VZPU.js     | -                               |  28.02 kB |                 4.42 kB
+chunk-E75ANGXK.js     | dashboard-home-component        |  13.48 kB |                 3.81 kB
+chunk-EPPXIGB5.js     | dre-routes                      |  13.26 kB |                 4.32 kB
+chunk-ZKKJRQJJ.js     | -                               |  11.04 kB |                 2.50 kB
+chunk-SM2M4ZJL.js     | movimentacoes-component         |  10.61 kB |                 3.44 kB
+chunk-DBP43K2P.js     | contas-financeiras-component    |   8.90 kB |                 3.02 kB
+...and 17 more lazy chunks files. Use "--verbose" to show all the files.
+
+Application bundle generation complete. [6.603 seconds]
+
+Output location: C:\Users\dougc\OneDrive\Desktop\FinTrack\frontend\dist\fintrack-frontend
+

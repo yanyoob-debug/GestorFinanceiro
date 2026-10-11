@@ -1,0 +1,1 @@
+var o={production:!0,apiUrl:"/api"};function p(e=""){return`${o.apiUrl.replace(/\/$/,"")}${e?"/"+e.replace(/^\//,""):""}`}function c(e,r){let n=new URL(p(),r),t=new URL(e,r);return t.origin===n.origin&&(t.pathname===n.pathname||t.pathname.startsWith(n.pathname+"/"))}export{p as a,c as b};

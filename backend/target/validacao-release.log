@@ -1,0 +1,148 @@
+Acesso negado.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.fintrack:fintrack-backend >--------------------
+[INFO] Building FinTrack Backend 0.1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ fintrack-backend ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 5 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ fintrack-backend ---
+[INFO] Recompiling the module because of added or removed source files.
+[INFO] Compiling 84 source files with javac [debug parameters release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ fintrack-backend ---
+[INFO] skip non existing resourceDirectory C:\Users\dougc\OneDrive\Desktop\FinTrack\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ fintrack-backend ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 13 source files with javac [debug parameters release 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ fintrack-backend ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.fintrack.categoria.domain.GrupoDreMigrationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.785 s -- in com.fintrack.categoria.domain.GrupoDreMigrationTest
+[INFO] Running com.fintrack.categoria.service.CategoriaServiceTest
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.948 s -- in com.fintrack.categoria.service.CategoriaServiceTest
+[INFO] Running com.fintrack.compromisso.service.CalculoEfetivacaoTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in com.fintrack.compromisso.service.CalculoEfetivacaoTest
+[INFO] Running com.fintrack.compromisso.service.EfetivacaoConcorrenteTest
+13:28:28.426 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.fintrack.compromisso.service.EfetivacaoConcorrenteTest]: EfetivacaoConcorrenteTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:28:28.769 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.fintrack.FinTrackApplication for test class com.fintrack.compromisso.service.EfetivacaoConcorrenteTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-10-10T13:28:29.526-03:00  INFO 11388 --- [fintrack-backend] [           main] c.f.c.service.EfetivacaoConcorrenteTest  : Starting EfetivacaoConcorrenteTest using Java 17.0.19 with PID 11388 (started by dougc in C:\Users\dougc\OneDrive\Desktop\FinTrack\backend)
+2026-10-10T13:28:29.528-03:00  INFO 11388 --- [fintrack-backend] [           main] c.f.c.service.EfetivacaoConcorrenteTest  : No active profile set, falling back to 1 default profile: "default"
+2026-10-10T13:28:30.318-03:00  INFO 11388 --- [fintrack-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-10T13:28:30.531-03:00  INFO 11388 --- [fintrack-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 200 ms. Found 7 JPA repository interfaces.
+2026-10-10T13:28:30.627-03:00  INFO 11388 --- [fintrack-backend] [           main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2026-10-10T13:28:30.899-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:dc8ffb5f-9c20-48af-a7c7-4e72c8a0c862;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-10-10T13:28:31.079-03:00  INFO 11388 --- [fintrack-backend] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-10T13:28:31.167-03:00  INFO 11388 --- [fintrack-backend] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-10-10T13:28:31.217-03:00  INFO 11388 --- [fintrack-backend] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-10T13:28:31.399-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-10T13:28:33.187-03:00  INFO 11388 --- [fintrack-backend] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-10T13:28:33.303-03:00  INFO 11388 --- [fintrack-backend] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-10T13:28:33.838-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-10T13:28:34.758-03:00  INFO 11388 --- [fintrack-backend] [           main] c.f.c.service.EfetivacaoConcorrenteTest  : Started EfetivacaoConcorrenteTest in 5.835 seconds (process running for 10.55)
+2026-10-10T13:28:35.202-03:00  INFO 11388 --- [fintrack-backend] [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.957 s -- in com.fintrack.compromisso.service.EfetivacaoConcorrenteTest
+[INFO] Running com.fintrack.compromisso.service.EfetivacaoIntegrationTest
+2026-10-10T13:28:35.226-03:00  INFO 11388 --- [fintrack-backend] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.fintrack.compromisso.service.EfetivacaoIntegrationTest]: EfetivacaoIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-10T13:28:35.254-03:00  INFO 11388 --- [fintrack-backend] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.fintrack.FinTrackApplication for test class com.fintrack.compromisso.service.EfetivacaoIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-10-10T13:28:35.329-03:00  INFO 11388 --- [fintrack-backend] [           main] c.f.c.service.EfetivacaoIntegrationTest  : Starting EfetivacaoIntegrationTest using Java 17.0.19 with PID 11388 (started by dougc in C:\Users\dougc\OneDrive\Desktop\FinTrack\backend)
+2026-10-10T13:28:35.329-03:00  INFO 11388 --- [fintrack-backend] [           main] c.f.c.service.EfetivacaoIntegrationTest  : No active profile set, falling back to 1 default profile: "default"
+2026-10-10T13:28:35.659-03:00  INFO 11388 --- [fintrack-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-10T13:28:35.794-03:00  INFO 11388 --- [fintrack-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 133 ms. Found 7 JPA repository interfaces.
+2026-10-10T13:28:35.816-03:00  INFO 11388 --- [fintrack-backend] [           main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2026-10-10T13:28:35.835-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:657dc9be-4472-41bf-8d02-186572963204;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-10-10T13:28:35.928-03:00  INFO 11388 --- [fintrack-backend] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-10T13:28:35.934-03:00  INFO 11388 --- [fintrack-backend] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-10T13:28:35.957-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-10T13:28:36.250-03:00  INFO 11388 --- [fintrack-backend] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-10T13:28:36.281-03:00  INFO 11388 --- [fintrack-backend] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-10T13:28:36.474-03:00  INFO 11388 --- [fintrack-backend] [           main] c.f.c.service.EfetivacaoIntegrationTest  : Started EfetivacaoIntegrationTest in 1.214 seconds (process running for 12.267)
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.866 s -- in com.fintrack.compromisso.service.EfetivacaoIntegrationTest
+[INFO] Running com.fintrack.config.ProductionConfigurationTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.184 s -- in com.fintrack.config.ProductionConfigurationTest
+[INFO] Running com.fintrack.configuracaofinanceira.service.ConfiguracaoFinanceiraServiceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s -- in com.fintrack.configuracaofinanceira.service.ConfiguracaoFinanceiraServiceTest
+[INFO] Running com.fintrack.FinTrackApplicationTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.fintrack.FinTrackApplicationTests
+[INFO] Running com.fintrack.relatorio.controller.RelatorioControllerTest
+2026-10-10T13:28:37.680-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2026-10-10T13:28:37.680-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-10-10T13:28:37.684-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2026-10-10T13:28:37.898-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2026-10-10T13:28:37.898-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-10-10T13:28:37.898-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2026-10-10T13:28:37.925-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2026-10-10T13:28:37.925-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-10-10T13:28:37.926-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-10-10T13:28:37.950-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2026-10-10T13:28:37.950-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-10-10T13:28:37.950-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.612 s -- in com.fintrack.relatorio.controller.RelatorioControllerTest
+[INFO] Running com.fintrack.relatorio.service.DreServiceIntegrationTest
+2026-10-10T13:28:37.971-03:00  INFO 11388 --- [fintrack-backend] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.fintrack.relatorio.service.DreServiceIntegrationTest]: DreServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-10T13:28:38.035-03:00  INFO 11388 --- [fintrack-backend] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.fintrack.FinTrackApplication for test class com.fintrack.relatorio.service.DreServiceIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-10-10T13:28:38.073-03:00  INFO 11388 --- [fintrack-backend] [           main] c.f.r.service.DreServiceIntegrationTest  : Starting DreServiceIntegrationTest using Java 17.0.19 with PID 11388 (started by dougc in C:\Users\dougc\OneDrive\Desktop\FinTrack\backend)
+2026-10-10T13:28:38.074-03:00  INFO 11388 --- [fintrack-backend] [           main] c.f.r.service.DreServiceIntegrationTest  : No active profile set, falling back to 1 default profile: "default"
+2026-10-10T13:28:38.278-03:00  INFO 11388 --- [fintrack-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-10T13:28:38.381-03:00  INFO 11388 --- [fintrack-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 7 JPA repository interfaces.
+2026-10-10T13:28:38.395-03:00  INFO 11388 --- [fintrack-backend] [           main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2026-10-10T13:28:38.410-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:932d5d4e-7ecc-46a5-b957-a75a2f8b8515;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-10-10T13:28:38.473-03:00  INFO 11388 --- [fintrack-backend] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-10T13:28:38.479-03:00  INFO 11388 --- [fintrack-backend] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-10T13:28:38.507-03:00  INFO 11388 --- [fintrack-backend] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-10T13:28:38.724-03:00  INFO 11388 --- [fintrack-backend] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-10T13:28:38.758-03:00  INFO 11388 --- [fintrack-backend] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-10T13:28:38.941-03:00  INFO 11388 --- [fintrack-backend] [           main] c.f.r.service.DreServiceIntegrationTest  : Started DreServiceIntegrationTest in 0.903 seconds (process running for 14.734)
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.109 s -- in com.fintrack.relatorio.service.DreServiceIntegrationTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 36, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12:34 min
+[INFO] Finished at: 2026-10-10T13:28:39-03:00
+[INFO] ------------------------------------------------------------------------
